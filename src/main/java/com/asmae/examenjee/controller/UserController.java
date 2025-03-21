@@ -1,4 +1,4 @@
-package com.asmae.examenjee.dao;
+package com.asmae.examenjee.controller;
 
 public class UserController {
 }

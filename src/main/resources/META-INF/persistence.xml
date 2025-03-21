@@ -5,8 +5,11 @@
              version="3.0">
     <persistence-unit name="JPA">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <class></class>
-        <class></class>
+        <class>com.asmae.examenjee.model.Document</class>
+        <class>com.asmae.examenjee.model.Book</class>
+        <class>com.asmae.examenjee.model.Magazine</class>
+        <class>com.asmae.examenjee.model.User</class>
+
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
             <!-- database connection -->
